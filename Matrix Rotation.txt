@@ -1,0 +1,39 @@
+Problem:
+You have a matrix 2×2 filled with distinct integers. 
+You want your matrix to become beautiful. 
+The matrix is beautiful if the following two conditions are satisfied:
+
+in each row, the first element is smaller than the second element;
+in each column, the first element is smaller than the second element.
+You can perform the following operation on the matrix any number of times:
+rotate it clockwise by 90 degrees, so the top left element shifts to the top right cell, 
+the top right element shifts to the bottom right cell, and so on:
+Determine if it is possible to make the matrix beautiful by applying zero or more operations.
+
+Answer:
+
+def rotate(arr):
+    a=arr[0]
+    arr[0]=arr[2]
+    arr[2]=arr[3]
+    arr[3]=arr[1]
+    arr[1]=a
+    return arr
+    
+t=int(input())
+for i in range(t):
+    arr=[]
+    for j in range(2):
+        x=input().split(" ")
+        for k in range(2):
+            arr.append(int(x[k]))
+    flag=False
+    for i in range(4):
+        if(arr[0]<arr[1] and arr[0]<arr[2] and arr[2]<arr[3] and arr[1]<arr[3]):
+            print("YES")
+            flag=True
+            break
+        else:
+            rotate(arr)
+    if flag!=True:
+        print("NO")
