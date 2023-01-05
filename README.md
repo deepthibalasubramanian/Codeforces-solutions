@@ -8,3 +8,4 @@
 2. Given a 2 x 2 matrix, rotate and see if matrix is beautiful or not: *solved using Python 3* : Attempts=4
 3. Given 3 numbers, check if sum of any two is equal to third: *solved using C++* : Attempts=2
 4. Given 3 numbers, print the medium value out of those: *solved using Python 3* : Attempts=5
+5. Given an array of numbers, print the difference between max and current number: *solved using Python 3* : Attempts=3
