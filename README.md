@@ -10,3 +10,4 @@
 4. Given 3 numbers, print the medium value out of those: *solved using Python 3* : Attempts=5
 5. Given an array of numbers, print the difference between max and current number: *solved using Python 3* : Attempts=3
 6. Given 2 elevators, find which can come to your floor faster: *solved using Python 3* : Attempts=5
+7. Given 2 T shirt sizes, compare them: *solved using Python 3* : Attempts=1
