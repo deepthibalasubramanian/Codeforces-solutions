@@ -11,3 +11,4 @@
 5. Given an array of numbers, print the difference between max and current number: *solved using Python 3* : Attempts=3
 6. Given 2 elevators, find which can come to your floor faster: *solved using Python 3* : Attempts=5
 7. Given 2 T shirt sizes, compare them: *solved using Python 3* : Attempts=1
+8. Given 2 strings, see if colourblind people see it the same way: *solved using Python 3* : Attempts=1
