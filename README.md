@@ -12,3 +12,4 @@
 6. Given 2 elevators, find which can come to your floor faster: *solved using Python 3* : Attempts=5
 7. Given 2 T shirt sizes, compare them: *solved using Python 3* : Attempts=1
 8. Given 2 strings, see if colourblind people see it the same way: *solved using Python 3* : Attempts=1
+9. Given a rating, allocate it to 4 categories: *solved using Python 3* : Attempts=1
